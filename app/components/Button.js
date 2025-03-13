@@ -1,6 +1,6 @@
 function Button({ children }) {
   return (
-    <button className="border-1 rounded-md p-1 hover:p-2 animation duration-250 ease-in-out">
+    <button className="border-1 h-fit text-1l rounded-md p-1 hover:p-1.5 animation duration-250 ease-in-out">
       {children}
     </button>
   );

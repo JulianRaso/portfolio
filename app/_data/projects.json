@@ -1,0 +1,30 @@
+[
+  {
+    "title": "MedInfor",
+    "description": "La aplicación MedInfor fue diseñada y desarrollada para el Hospital Escuela con la intención de facilitar tanto a los médicos como para los pacientes la información necesaria para las indicaciones antes y después de sus operaciones. Dentro de la aplicación se encuentra información relevante para los pre y postoperatorios de los pacientes. Cabe destacar que dicha información fue obtenida por médicos del propio hospital.",
+    "image": "project1.jpg"
+  },
+  {
+    "title": "Events Manager",
+    "description": "Events Manager es una aplicación web que permite a los usuarios crear eventos y compartirlos con sus amigos. Los usuarios pueden ver los eventos creados por sus amigos y unirse a ellos. Además, pueden ver los eventos que han creado y ver cuántas personas se han unido a ellos. La aplicación también permite a los usuarios buscar eventos por categoría y ubicación.",
+    "image": "project2.jpg",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ]
+  },
+  {
+    "title": "Gym Manager",
+    "description": "",
+    "image": "project3.jpg"
+  },
+  {
+    "title": "Muzek",
+    "description": "Landing Page de una empresa de eventos",
+    "image": "project4.jpg"
+  }
+]

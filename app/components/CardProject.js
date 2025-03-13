@@ -4,7 +4,6 @@ import Link from "next/link";
 
 function CardProject({ project }) {
   const { name, description, html_url, language } = project;
-  console.log(html_url);
 
   return (
     <div className="border-2 rounded-md p-2 m-4">

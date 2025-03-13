@@ -2,9 +2,8 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div className="border-2 w-full flex items-center justify-between p-3">
-      <p>Julian Raso</p>
-      <div className="flex align-center gap-5">
+    <div className="w-full flex align-center justify-end p-4 h-20 ">
+      <div className="flex align-center justify-center gap-5 h-18">
         <Button>Inicio</Button>
         <Button>Experiencia</Button>
         <Button>Projectos</Button>

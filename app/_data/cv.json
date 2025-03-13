@@ -1,0 +1,58 @@
+{
+  "name": "Julian Raso",
+  "profilePicture": "./assets/images/profilepic.jpg",
+  "carrer": "Ingeniero en Sistemas de Información",
+  "location": "Corrientes, Argentina",
+  "aboutMe": "Soy un apasionado por la tecnología y la programación. Me gusta aprender cosas nuevas y enfrentar desafíos. Me considero una persona proactiva, responsable y comprometida con mi trabajo. Me gusta trabajar en equipo y compartir conocimientos con los demás.",
+  "experience": [
+    {
+      "company": "Scale AI",
+      "position": "Especialista en aseguramiento de calidad",
+      "period": "Febrero 2024 - Agosto 2024",
+      "description": "Revisión y confesión de código en Javascript, Typescript y Python para garantizar su correcto funcionamiento y alineamiento a los estándares de calidad."
+    },
+    {
+      "company": "Desarrollos NEA",
+      "position": "Desarrollador Backend",
+      "period": "Septiembre 2023 - Noviembre 2023",
+      "description": "Migración de un Chatbot a la plataforma de mensajería WhatsApp utilizando C#."
+    },
+    {
+      "company": "AirBits",
+      "position": "Desarrollador Backend",
+      "period": "Febrero 2023 - Junio 2023",
+      "description": "Diseño, desarrollo e integración de diversos scripts para el consumo de un web service utilizando Javascript."
+    },
+    {
+      "company": "Freelance - MedInfor",
+      "position": "Desarrollador Movil",
+      "period": "Junio 2020 - Julio 2020",
+      "description": "Diseño y desarrollo de una aplicación móvil para el Hospital Escuela con la intención de facilitar tanto a los médicos como para los pacientes la información relevante para los pre y postoperatorios de los pacientes."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Muzek",
+      "description": "Una landing page diseñada a medida para presentar los eventos de sonido e iluminacion que ofrece la compañía. Con un diseño atractivo y fácil de navegar, la página incluye una sección destacada de eventos realizados, un catalogo de los servicios disponibles y un boton a la acción para que los visitantes se comuniquen para solicitar más información.",
+      "technologies": ["React", "Javascript", "CSS"]
+    },
+    {
+      "name": "GymApp",
+      "description": "Descripción del proyecto 2",
+      "technologies": ["Tecnología 1", "Tecnología 2"]
+    },
+    {
+      "name": "Events Manager",
+      "description": "Descripción del proyecto 2",
+      "technologies": ["Tecnología 1", "Tecnología 2"]
+    }
+  ],
+  "contacts": [
+    {
+      "email": "mailto:julianraso3@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/julianraso/",
+      "github": "https://github.com/JulianRaso",
+      "cv": "https://drive.google.com/file/d/1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(
+    to center,
+    rgb(255, 255, 255),
+    rgb(200, 200, 200)
+  );
+  background-size: cover;
+}
