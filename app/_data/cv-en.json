@@ -1,0 +1,58 @@
+{
+  "name": "Julian Raso",
+  "profilePicture": "./assets/images/profilepic.jpg",
+  "career": "Information Systems Engineer",
+  "location": "Corrientes, Argentina",
+  "aboutMe": "I am passionate about technology and programming. I enjoy learning new things and facing challenges. I consider myself a proactive, responsible person committed to my work. I like working in a team and sharing knowledge with others.",
+  "experience": [
+    {
+      "company": "Scale AI",
+      "position": "Quality Assurance Specialist",
+      "period": "February 2024 - August 2024",
+      "description": "Review and debugging of code in Javascript, Typescript, and Python to ensure proper functionality and alignment with quality standards."
+    },
+    {
+      "company": "Desarrollos NEA",
+      "position": "Backend Developer",
+      "period": "September 2023 - November 2023",
+      "description": "Migration of a Chatbot to the WhatsApp messaging platform using C#."
+    },
+    {
+      "company": "AirBits",
+      "position": "Backend Developer",
+      "period": "February 2023 - June 2023",
+      "description": "Design, development, and integration of various scripts for consuming a web service using Javascript."
+    },
+    {
+      "company": "Freelance - MedInfor",
+      "position": "Mobile Developer",
+      "period": "June 2020 - July 2020",
+      "description": "Design and development of a mobile application for the Hospital Escuela to provide both doctors and patients with relevant information for pre and post-operative care."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Muzek",
+      "description": "A custom-designed landing page to present the sound and lighting events offered by the company. With an attractive and easy-to-navigate design, the page includes a featured events section, a catalog of available services, and a call-to-action button for visitors to contact for more information.",
+      "technologies": ["React", "Javascript", "CSS"]
+    },
+    {
+      "name": "GymApp",
+      "description": "Project 2 description",
+      "technologies": ["Technology 1", "Technology 2"]
+    },
+    {
+      "name": "Events Manager",
+      "description": "Project 2 description",
+      "technologies": ["Technology 1", "Technology 2"]
+    }
+  ],
+  "contacts": [
+    {
+      "email": "mailto:julianraso3@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/julianraso/",
+      "github": "https://github.com/JulianRaso",
+      "cv": "https://drive.google.com/file/d/1"
+    }
+  ]
+}

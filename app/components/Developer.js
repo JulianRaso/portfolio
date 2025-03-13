@@ -5,26 +5,29 @@ import { CiMail } from "react-icons/ci";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { TbFileCv } from "react-icons/tb";
 
-function Developer() {
+function Developer({ developer }) {
+  const { name, career, location, profilePicture, contacts } = developer;
+  const { linkedin, email, github } = contacts;
+
   return (
     <div className="text-xl flex w-full">
       <div className="w-full h-full">
-        <p>Julian Raso</p>
-        <p>Ingeniero en Sistemas de Información</p>
+        <p>{name}</p>
+        <p>{career}</p>
         <p className="flex justify-start items-center gap-1 text-lg text-gray-500">
-          <AiOutlineGlobal /> Corrientes, Argentina
+          <AiOutlineGlobal /> {location}
         </p>
         <div className="flex items-center gap-2 justify-start text-2xl mt-1">
-          <Link href="https://www.linkedin.com/in/julian-raso/">
+          <Link href={email}>
             <CiMail />
           </Link>
-          <Link href="https://www.linkedin.com/in/julian-raso/">
+          <Link href={linkedin}>
             <FaLinkedin />
           </Link>
-          <Link href="https://www.linkedin.com/in/julian-raso/">
+          <Link href={github}>
             <FaGithub />
           </Link>
-          <Link href="https://www.linkedin.com/in/julian-raso/">
+          <Link href="">
             <TbFileCv />
           </Link>
         </div>

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="">
+    <div>
       <h1 className="text-xl font-bold">Sobre mí</h1>
       <p>
         +2 años experiencia en el Desarrollo Web. Actualmente, me encuentro como
