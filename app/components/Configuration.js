@@ -1,22 +1,28 @@
 "use client";
 import { useState } from "react";
 import { GrConfigure } from "react-icons/gr";
+import Button from "./Button";
 
 function Configuration() {
   const [display, setDisplay] = useState(false);
 
   return (
-    <div className="fixed bottom-3 right-10 text-2xl">
-      <div className="border-2 p-1 rounded-3xl cursor-pointer ">
-        <GrConfigure onClick={() => setDisplay(!display)} />
+    <div className="fixed bottom-9 right-8 sm:right-15 text-2xl">
+      <div
+        className="border-2 p-1 rounded-3xl cursor-pointer hover:bg-gray-200 "
+        onClick={() => setDisplay(!display)}
+      >
+        <GrConfigure />
       </div>
       <div
-        className={
-          display ? "hidden bottom-12 right-20" : "fixed bottom-12 right-20"
-        }
+        className={`bottom-18 right-12 sm:right-19 text-lg border-2 p-2 w-40 grid grid-cols-2 gap-1 rounded-2xl rounded-br-none bg-gray-100 ${
+          display ? "fixed" : "hidden"
+        }`}
       >
-        <h1>Español</h1>
-        <h1>Oscuro</h1>
+        <Button>{display ? "Español" : "Spanish"}</Button>
+        <Button>{display ? "English" : "English"}</Button>
+        <Button>{display ? "Claro" : "White"}</Button>
+        <Button>{display ? "Oscuro" : "Dark"}</Button>
       </div>
     </div>
   );

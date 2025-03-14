@@ -32,27 +32,27 @@
       "description": "Diseño, desarrollo e integración de diversos scripts para el consumo de un web service utilizando Javascript."
     },
     {
-      "company": "Freelance - MedInfor",
+      "company": "MedInfor",
       "position": "Desarrollador Movil",
       "period": "Junio 2020 - Julio 2020",
-      "description": "Diseño y desarrollo de una aplicación móvil para el Hospital Escuela con la intención de facilitar tanto a los médicos como para los pacientes la información relevante para los pre y postoperatorios de los pacientes."
+      "description": "Diseño y desarrollo de una aplicación móvil para el Hospital Escuela con el fin de facilitar tanto a los médicos como para los pacientes la información relevante para los pre y postoperatorios de los pacientes."
     }
   ],
   "projects": [
     {
       "name": "Muzek",
-      "description": "Una landing page diseñada a medida para presentar los eventos de sonido e iluminacion que ofrece la compañía. Con un diseño atractivo y fácil de navegar, la página incluye una sección destacada de eventos realizados, un catalogo de los servicios disponibles y un boton a la acción para que los visitantes se comuniquen para solicitar más información.",
+      "description": "Una landing page diseñada a medida con un diseño atractivo y fácil de navegar, para presentar los eventos de sonido e iluminacion que ofrece la compañía junto con un boton para que los visitantes se comuniquen para solicitar más información.",
       "languages": ["React", "Javascript", "CSS"]
     },
     {
-      "name": "GymApp",
-      "description": "Descripción del proyecto 2",
-      "languages": ["Tecnología 1", "Tecnología 2"]
+      "name": "Go Fit Get Fit",
+      "description": "Es una web app que permite gestionar de manera eficiente a los alumnos, desde su alta hasta su baja, facilitando el registro de nuevos miembros y la eliminación de aquellos que ya no asisten. Además, ofrece un sistema para controlar el stock de productos, como suplementos y equipos, todo desde una interfaz sencilla de utilizar.",
+      "languages": ["React", "Javascript", "CSS"]
     },
     {
       "name": "Events Manager",
-      "description": "Descripción del proyecto 2",
-      "languages": ["Tecnología 1", "Tecnología 2"]
+      "description": "La página web gestiona el stock de equipos de sonido e iluminación, el alta y baja de personal, la administración de eventos y el flujo de caja, todo a través de una interfaz intuitiva para optimizar los procesos operativos de la empresa.",
+      "languages": ["React", "Typescript", "CSS"]
     }
   ]
 }

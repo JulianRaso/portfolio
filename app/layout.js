@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./styles/globals.css";
 
 const geistSans = Geist({
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col align-center w-screen mt-18">
+      <body className="flex flex-col align-center w-full mt-18">
         {children}
       </body>
     </html>
