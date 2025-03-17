@@ -7,7 +7,7 @@ import { TbFileCv } from "react-icons/tb";
 
 function Developer({ developer }) {
   const { name, career, location, profilePicture, contacts } = developer;
-  const { linkedin, email, github } = contacts;
+  const { linkedin, email, github, cv } = contacts;
 
   return (
     <div className="flex w-full text-sm sm:text-xl">
@@ -27,7 +27,7 @@ function Developer({ developer }) {
           <Link href={github}>
             <FaGithub />
           </Link>
-          <Link href="">
+          <Link href={cv}>
             <TbFileCv />
           </Link>
         </div>

@@ -8,7 +8,7 @@ export default function CardExperience({ experience }) {
         <p className="font-light text-xs sm:text-lg">{period}</p>
       </div>
       <p className="sm:text-lg">{position}</p>
-      <p className="mt-4 text-justify sm:text-xl">{description}</p>
+      <p className="mt-3 text-justify sm:text-xl">{description}</p>
     </div>
   );
 }
